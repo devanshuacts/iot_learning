@@ -1,0 +1,27 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "bleno": "^0.4.2",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "kafka-node": "^2.3.2",
+    "mongoose": "^4.13.7",
+    "morgan": "~1.9.0",
+    "noble": "^1.8.1",
+    "node-opcua": "^0.1.1-0",
+    "pug": "2.0.0-beta11",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.3"
+  }
+}
